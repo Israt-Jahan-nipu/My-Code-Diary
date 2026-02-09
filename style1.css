@@ -1,0 +1,30 @@
+nav{
+    background-color: darkred;
+    padding: 20px;
+
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content:right;
+    gap: 70px;
+}
+button{
+   background-color:red;
+    color: black;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition:all 0.3s ease;
+}
+button:hover{
+    background-color: red;
+    transform: scale(1.1);
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+
+}
